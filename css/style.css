@@ -1,5 +1,4 @@
-﻿
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 html {
   font-size: 100%;
@@ -127,6 +126,24 @@ Works
   margin-bottom: 23px;
    filter: drop-shadow(5px 5px 5px #aaa);
   }
+  
+  
+/*-------------------------------------------
+illust
+-------------------------------------------*/
+#illust ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+
+#illust li {
+  width: 31%;
+  margin-bottom: 23px;
+   }
+
 
 /*-------------------------------------------
 News
